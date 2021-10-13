@@ -40,10 +40,26 @@ public class ControladorAnimacionPersonaje : MonoBehaviour
 
         }
             
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            //animatorPersonaje.GetCurrentAnimatorStateInfo(0).normalizedTime;
+            animatorPersonaje.speed = 0.1f;
+        }
 
-        
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            animatorPersonaje.speed = 1;
+        }
 
-        animatorPersonaje.speed = 1f + Input.GetAxis("Horizontal");
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            animatorPersonaje.speed = 2;
+        }
+
+        //if (animatorPersonaje.GetCurrentAnimatorStateInfo(0).IsName("Jumping"))
+            //Debug.Log("Estoy saltando");
+
+        //animatorPersonaje.speed = 1f + Input.GetAxis("Horizontal");
     }
 
     public void Pisada()

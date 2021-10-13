@@ -16,3 +16,9 @@ public interface IShoot
 {
     public void Shoot();
 }
+
+
+public interface IPlayerInteractable
+{
+    void InteractuarConPersonaje();
+}

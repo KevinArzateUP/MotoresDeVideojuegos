@@ -60,11 +60,13 @@
     <Compile Include="Assets\Scripts\ClaseSOLID\Vehicle.cs" />
     <Compile Include="Assets\Scripts\ClaseSOLID\Usuario.cs" />
     <Compile Include="Assets\Scripts\PrefabEsfera.cs" />
+    <Compile Include="Assets\Scripts\MiniJuego\ObjetoInteractuable.cs" />
     <Compile Include="Assets\Scripts\ClaseAnimator\ControladorAnimacionPersonaje.cs" />
     <Compile Include="Assets\ArisaNew2\Script\PlayerMoveCode.cs" />
     <Compile Include="Assets\Scripts\ClaseTouch\ManejadorTouch.cs" />
     <Compile Include="Assets\Scripts\Buzon.cs" />
     <Compile Include="Assets\Scripts\ClaseTouch\InstanciaMejorada.cs" />
+    <Compile Include="Assets\Scripts\MiniJuego\ManejadorDeInteracciones.cs" />
     <Compile Include="Assets\Scripts\ClaseSOLID\Car.cs" />
     <Compile Include="Assets\Scripts\ClaseSOLID\ManejadorEntradas.cs" />
     <Compile Include="Assets\Scripts\Scores.cs" />
@@ -77,6 +79,7 @@
     <Compile Include="Assets\Scripts\ClaseAsesoriaExamen\MovimientoHaciaUnPunto.cs" />
     <Compile Include="Assets\Scripts\ClaseAudio\ConfiguracionAudio.cs" />
     <Compile Include="Assets\Scripts\MenuPausa.cs" />
+    <Compile Include="Assets\ScriptEjemploAnimator.cs" />
     <Compile Include="Assets\Scripts\ClaseSOLID\Enemigo.cs" />
     <Compile Include="Assets\Scripts\Ayudas\SpriteMovement.cs" />
     <Compile Include="Assets\ArisaNew2\Script\ThirdPerson.cs" />
@@ -86,8 +89,9 @@
     <Compile Include="Assets\Scripts\ClaseAsesoriaExamen\GeneradorAleatorio.cs" />
     <Compile Include="Assets\Kevin Iglesias\Melee Warrior Animations\Scripts\MeleeWarriorShieldRotator.cs" />
     <Compile Include="Assets\ArisaNew2\Script\ToggleCamera_arisa.cs" />
-    <Compile Include="Assets\Scripts\MiniJuego\ManejadorDeInteracciones.cs" />
-    <Compile Include="Assets\Scripts\MiniJuego\ObjetoInteractuable.cs" />
+    <Compile Include="Assets\Scripts\Clase2D\Trigger2D.cs" />
+    <Compile Include="Assets\Scripts\Clase2D\Flechas2D.cs" />
+    <Compile Include="Assets\Scripts\Clase2D\Picos2D.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
