@@ -60,38 +60,42 @@
     <Compile Include="Assets\Scripts\ClaseSOLID\Vehicle.cs" />
     <Compile Include="Assets\Scripts\ClaseSOLID\Usuario.cs" />
     <Compile Include="Assets\Scripts\PrefabEsfera.cs" />
+    <Compile Include="Assets\Scripts\IA\InteligenciaArtificial.cs" />
     <Compile Include="Assets\Scripts\MiniJuego\ObjetoInteractuable.cs" />
+    <Compile Include="Assets\Scripts\MiniJuego\ManejadorDeInteracciones.cs" />
+    <Compile Include="Assets\Scripts\ClaseSOLID\ManejadorEntradas.cs" />
+    <Compile Include="Assets\Scripts\ClasePrefabs.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Melee Warrior Animations\Scripts\MeleeWarriorLeftHandIK.cs" />
+    <Compile Include="Assets\Scripts\ClaseAsesoriaExamen\MovimientoHaciaUnPunto.cs" />
+    <Compile Include="Assets\Scripts\ClaseAudio\ConfiguracionAudio.cs" />
+    <Compile Include="Assets\ScriptEjemploAnimator.cs" />
+    <Compile Include="Assets\Scripts\ClaseSOLID\Personaje.cs" />
+    <Compile Include="Assets\Scripts\Clase2D\Picos2D.cs" />
+    <Compile Include="Assets\Scripts\ClaseAsesoriaExamen\GeneradorAleatorio.cs" />
+    <Compile Include="Assets\Scripts\ClaseDeteccionColisiones\ScriptMarioBros.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Melee Warrior Animations\Scripts\MeleeWarriorShieldRotator.cs" />
+    <Compile Include="Assets\ArisaNew2\Script\ToggleCamera_arisa.cs" />
     <Compile Include="Assets\Scripts\ClaseAnimator\ControladorAnimacionPersonaje.cs" />
     <Compile Include="Assets\ArisaNew2\Script\PlayerMoveCode.cs" />
     <Compile Include="Assets\Scripts\ClaseTouch\ManejadorTouch.cs" />
     <Compile Include="Assets\Scripts\Buzon.cs" />
     <Compile Include="Assets\Scripts\ClaseTouch\InstanciaMejorada.cs" />
-    <Compile Include="Assets\Scripts\MiniJuego\ManejadorDeInteracciones.cs" />
     <Compile Include="Assets\Scripts\ClaseSOLID\Car.cs" />
-    <Compile Include="Assets\Scripts\ClaseSOLID\ManejadorEntradas.cs" />
     <Compile Include="Assets\Scripts\Scores.cs" />
     <Compile Include="Assets\ArisaNew2\Script\NewController_arisa.cs" />
-    <Compile Include="Assets\Scripts\ClasePrefabs.cs" />
+    <Compile Include="Assets\Scripts\Clase2D\Flechas2D.cs" />
+    <Compile Include="Assets\Scripts\Clase2D\Trigger2D.cs" />
     <Compile Include="Assets\Scripts\ClaseSOLID\InterfacesAndClasses.cs" />
     <Compile Include="Assets\ArisaNew2\Script\PlayerBasicCode.cs" />
-    <Compile Include="Assets\Kevin Iglesias\Melee Warrior Animations\Scripts\MeleeWarriorLeftHandIK.cs" />
     <Compile Include="Assets\Scripts\ClaseAsesoriaExamen\ClaseAnalisisColisionesYFisicas.cs" />
-    <Compile Include="Assets\Scripts\ClaseAsesoriaExamen\MovimientoHaciaUnPunto.cs" />
-    <Compile Include="Assets\Scripts\ClaseAudio\ConfiguracionAudio.cs" />
+    <Compile Include="Assets\Scripts\ClaseDecals\ArmaPrincipal.cs" />
     <Compile Include="Assets\Scripts\MenuPausa.cs" />
-    <Compile Include="Assets\ScriptEjemploAnimator.cs" />
     <Compile Include="Assets\Scripts\ClaseSOLID\Enemigo.cs" />
     <Compile Include="Assets\Scripts\Ayudas\SpriteMovement.cs" />
     <Compile Include="Assets\ArisaNew2\Script\ThirdPerson.cs" />
-    <Compile Include="Assets\Scripts\ClaseSOLID\Personaje.cs" />
     <Compile Include="Assets\Scripts\ClaseSOLID\Bala.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\ClaseAsesoriaExamen\GeneradorAleatorio.cs" />
-    <Compile Include="Assets\Kevin Iglesias\Melee Warrior Animations\Scripts\MeleeWarriorShieldRotator.cs" />
-    <Compile Include="Assets\ArisaNew2\Script\ToggleCamera_arisa.cs" />
-    <Compile Include="Assets\Scripts\Clase2D\Trigger2D.cs" />
-    <Compile Include="Assets\Scripts\Clase2D\Flechas2D.cs" />
-    <Compile Include="Assets\Scripts\Clase2D\Picos2D.cs" />
+    <Compile Include="Assets\Scripts\ClaseAsesorias\PersonajeBlendTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -652,8 +656,14 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
